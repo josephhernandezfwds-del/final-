@@ -1,0 +1,81 @@
+.calendario-container {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad0c4);
+  min-height: 100vh;
+}
+
+.calendario-container h1 {
+  color: #2ca786;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 5px rgba(22, 120, 176, 0.3);
+  margin-bottom: 20px;
+}
+
+.eventos-dia {
+  margin-top: 25px;
+}
+
+.eventos-dia h2 {
+  color: #003049;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.evento-card {
+  border: none;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 450px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #42e695, #3bb2b8);
+  color: #ed0000;
+  box-shadow: 0 8px 20px rgba(224, 0, 0, 0.25);
+  text-align: left;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.evento-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(211, 18, 18, 0.35);
+}
+
+.evento-card p {
+  margin: 8px 0;
+  font-size: 1rem;
+}
+
+.btn-eliminar {
+  margin-top: 10px;
+  padding: 10px 14px;
+  background: #ff1744;
+  color: #ff0000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn-eliminar:hover {
+  background: #d50000;
+}
+
+.btn-agregar {
+  margin-top: 20px;
+  padding: 12px 18px;
+  background: #ff6d00;
+  color: #cb0202;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn-agregar:hover {
+  background: #e65100;
+  transform: scale(1.05);
+}

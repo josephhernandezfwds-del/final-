@@ -1,0 +1,52 @@
+.evento-card {
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: #e0e0e0;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 15px 0;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-family: 'Orbitron', sans-serif; /* tipografía electrónica */
+}
+
+.evento-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 30px rgba(255, 0, 200, 0.7);
+}
+
+.evento-card h3 {
+  font-size: 1.8rem;
+  color: #ff00cc;
+  text-shadow: 0 0 8px #ff00cc, 0 0 16px #00ccff;
+  margin-bottom: 10px;
+}
+
+.evento-card p {
+  margin: 6px 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.evento-card .precio {
+  font-weight: bold;
+  color: #00ffcc;
+  text-shadow: 0 0 6px #00ffcc;
+}
+
+.evento-card button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  background: linear-gradient(90deg, #ff00cc, #00ccff);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.evento-card button:hover {
+  background: linear-gradient(90deg, #00ccff, #ff00cc);
+  transform: scale(1.1);
+}

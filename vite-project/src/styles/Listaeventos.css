@@ -1,0 +1,53 @@
+.evento-card {
+  background: #1a1a1a;
+  border: 2px solid #00f7ff;
+  border-radius: 14px;
+  padding: 18px;
+  margin: 20px auto;
+  max-width: 420px;
+  box-shadow: 0 0 20px rgba(0, 247, 255, 0.6);
+  color: #b10b96;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.evento-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 30px rgba(255, 0, 127, 0.7);
+}
+
+.evento-card h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: #ff007f;
+  text-shadow: 0 0 8px #ff007f;
+}
+
+.evento-card p {
+  margin: 6px 0;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.evento-card .precio {
+  font-weight: bold;
+  color: #39ff14;
+  text-shadow: 0 0 6px #39ff14;
+  font-size: 1.2rem;
+}
+
+.btn-eliminar {
+  margin-top: 14px;
+  padding: 10px 14px;
+  background: #ff007f;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s, box-shadow 0.3s;
+  text-shadow: 0 0 5px #cf1588;
+}
+
+.btn-eliminar:hover {
+  background: #9d4edd;
+}

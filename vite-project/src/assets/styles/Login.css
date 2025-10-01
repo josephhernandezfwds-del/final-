@@ -1,0 +1,64 @@
+body{
+    background-image: url("src/image/generated-image-f7447eba-ea3b-4ff2-8bb5-569433431402.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.inicio {
+    font-family: 'Arial', sans-serif;
+    background-color: #0d1117;
+    color: #c9d1d9;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.inputRegistroPacientes {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #30363d;
+    border-radius: 5px;
+    background-color: #161b22;
+    color: #c9d1d9;
+    font-size: 16px;
+}
+
+.inputRegistroPacientes::placeholder {
+    color: #8b949e;
+}
+
+.buttonRegistroPacientes {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #238636;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buttonRegistroPacientes:hover {
+    background-color: #4d194d;
+}
+
+button {
+    background-color: #7400b8;
+    color: #c9d1d9;
+    border: 1px solid #820263;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #161b22;
+    color: #58a6ff;
+}

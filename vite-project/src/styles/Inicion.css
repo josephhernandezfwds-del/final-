@@ -1,0 +1,80 @@
+/* Fondo general */
+.inicio-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at center, #1a1a1a 0%, #0d0d0d 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Efecto de luces animadas */
+.inicio-container::before {
+  content: "";
+  position: absolute;
+  width: 150%;
+  height: 150%;
+  background: conic-gradient(
+    from 0deg,
+    #00f7ff,
+    #ff007f,
+    #39ff14,
+    #9d4edd,
+    #00f7ff
+  );
+  animation: spin 8s linear infinite;
+  filter: blur(120px);
+  z-index: 0;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Contenido centrado */
+.inicio-content {
+  z-index: 1;
+  text-align: center;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.6);
+  border: 2px solid #ff007f;
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(255, 0, 127, 0.7);
+  backdrop-filter: blur(8px);
+  max-width: 600px;
+  width: 90%;
+}
+
+/* Títulos */
+.inicio-content h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #00f7ff;
+  text-shadow: 0 0 12px #00f7ff;
+}
+
+/* Botones generales */
+.inicio-content button {
+  background: #ff007f;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 1rem;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 12px #ff007f;
+  transition: all 0.3s ease-in-out;
+}
+
+.inicio-content button:hover {
+  background: #00f7ff;
+  box-shadow: 0 0 16px #00f7ff, 0 0 24px #00f7ff;
+  transform: scale(1.05);
+}
